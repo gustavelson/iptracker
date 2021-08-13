@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  crossorigin=""/>
+  
+
+  <title>IP Address Tracker</title>
+
+  
+  
+</head>
+<body>
+ <header>
+   <div class="title">
+     <h1>IP Address Tracker</h1>
+   </div>
+
+    <form class="busca">
+    <input id="searchInput" type="search" placeholder="Search for any IP address or domain"> 
+    <button>Search</button>
+    </form>  
+ </header>
+<main>
+   <div class="info--area">
+     <div class="info--itens">
+         <div class="ipAddress">
+              Ip Address
+              <div class="ip--zone">----</div>
+          </div>
+            <div class="location">
+              Location
+              <div class="location--zone">----</div>
+            </div>
+              <div class="timezone">
+              Timezone
+              <div class="time--zone">----</div>
+              </div>
+                <div class="isp">
+                ISP
+                <div class="isp--zone">----</div>
+                </div>
+        </div>
+    </div>
+</main>
+
+ <div id="mapid">
+
+ </div>
+ 
+
+ <footer>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/gustavelson">Gustavo Souza</a>.
+  </div>
+</footer>
+
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+
+  <script src="script.js"></script>
+  
+
+  
+ 
+</body>
+</html>
